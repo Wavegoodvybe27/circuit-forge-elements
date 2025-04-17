@@ -32,6 +32,17 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+                circuit: {
+                    canvas: '#f8fafc', // Light background for the canvas
+                    grid: '#e2e8f0',   // Grid lines
+                    wire: '#2563eb',   // Blue for wires
+                    selected: '#3b82f6', // Highlighted components
+                    hover: '#60a5fa',  // Hover state
+                    dc: '#2563eb',     // DC mode indicator
+                    ac: '#7c3aed',     // AC mode indicator
+                    ground: '#334155', // Ground symbol
+                    text: '#1e293b',   // Component text
+                },
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'

@@ -97,5 +97,32 @@
 
   body {
     @apply bg-background text-foreground;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .stroke-circuit-selected {
+    stroke: theme('colors.circuit.selected');
+  }
+  
+  .stroke-circuit-wire {
+    stroke: theme('colors.circuit.wire');
+  }
+  
+  .stroke-circuit-text {
+    stroke: theme('colors.circuit.text');
+  }
+  
+  .stroke-circuit-ac {
+    stroke: theme('colors.circuit.ac');
+  }
+  
+  .stroke-circuit-dc {
+    stroke: theme('colors.circuit.dc');
+  }
+  
+  .fill-circuit-selected {
+    fill: theme('colors.circuit.selected');
   }
 }
